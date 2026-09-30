@@ -21,9 +21,9 @@ const Cart = () => {
     <div className="container section">
       <h1 style={{ fontSize: '2.5rem', marginBottom: '40px' }}>Your Cart</h1>
       
-      <div style={{ display: 'flex', gap: '60px' }}>
+      <div className="flex-mobile-col" style={{ display: 'flex', gap: '60px' }}>
         <div style={{ flexGrow: 1 }}>
-          <div style={{ borderBottom: '1px solid var(--color-border)', paddingBottom: '16px', marginBottom: '24px', display: 'flex' }}>
+          <div className="hide-mobile" style={{ borderBottom: '1px solid var(--color-border)', paddingBottom: '16px', marginBottom: '24px', display: 'flex' }}>
             <div style={{ flex: '0 0 60%' }}>Product</div>
             <div style={{ flex: '0 0 20%', textAlign: 'center' }}>Quantity</div>
             <div style={{ flex: '0 0 20%', textAlign: 'right' }}>Total</div>

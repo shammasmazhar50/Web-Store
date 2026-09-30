@@ -40,9 +40,9 @@ const Checkout = () => {
     <div className="container section">
       <h1 style={{ fontSize: '2.5rem', marginBottom: '40px', textAlign: 'center' }}>Checkout</h1>
       
-      <div style={{ display: 'flex', gap: '60px', flexDirection: 'row-reverse' }}>
+      <div className="flex-mobile-col" style={{ display: 'flex', gap: '60px', flexDirection: 'row-reverse' }}>
         {/* Order Summary */}
-        <div style={{ width: '400px', flexShrink: 0 }}>
+        <div style={{ width: '100%', maxWidth: '400px', flexShrink: 0 }}>
           <div style={{ backgroundColor: 'var(--color-blush)', padding: '32px', borderRadius: 'var(--radius-md)' }}>
             <h3 style={{ fontSize: '1.2rem', marginBottom: '24px' }}>Order Summary</h3>
             

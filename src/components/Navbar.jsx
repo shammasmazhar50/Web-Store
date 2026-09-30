@@ -12,13 +12,13 @@ const Navbar = () => {
         Free Delivery Nationwide on Orders Above Rs. 100,000! Call: 0300-1234567
       </div>
       <header className="header">
-        <div className="container nav-container">
+        <div className="container nav-container nav-container-mobile">
           <Link to="/" className="brand-logo">
             <span style={{ color: 'var(--color-primary)' }}>DAR</span>
             <span style={{ color: 'var(--color-accent)', marginLeft: '8px', fontWeight: '600' }}>ELECTRONICS</span>
           </Link>
           
-          <div style={{ flexGrow: 1, margin: '0 40px', display: 'flex' }}>
+          <div className="search-input" style={{ flexGrow: 1, margin: '0 40px', display: 'flex' }}>
             <input 
               type="text" 
               placeholder="Search products..." 

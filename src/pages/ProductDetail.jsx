@@ -33,7 +33,7 @@ const ProductDetail = () => {
         <span style={{ color: 'var(--color-text)' }}>{product.name}</span>
       </div>
 
-      <div style={{ display: 'flex', gap: '60px', alignItems: 'flex-start' }}>
+      <div className="flex-mobile-col" style={{ display: 'flex', gap: '60px', alignItems: 'flex-start' }}>
         {/* Images */}
         <div style={{ flex: '1 1 50%' }}>
           <div style={{ borderRadius: 'var(--radius-lg)', overflow: 'hidden', backgroundColor: 'var(--color-white)', aspectRatio: '4/5', border: '1px solid var(--color-border)' }}>

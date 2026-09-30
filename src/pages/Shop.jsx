@@ -18,9 +18,9 @@ const Shop = () => {
         <p style={{ color: 'var(--color-text-light)' }}>Find the best deals on authentic home appliances.</p>
       </div>
 
-      <div style={{ display: 'flex', gap: '40px' }}>
+      <div className="flex-mobile-col" style={{ display: 'flex', gap: '40px' }}>
         {/* Sidebar Filters */}
-        <aside style={{ width: '250px', flexShrink: 0 }}>
+        <aside style={{ width: '100%', maxWidth: '250px', flexShrink: 0 }}>
           <div style={{ position: 'sticky', top: '100px' }}>
             <h3 style={{ fontSize: '1.2rem', marginBottom: '24px', borderBottom: '1px solid var(--color-border)', paddingBottom: '16px' }}>Category</h3>
             <ul style={{ listStyle: 'none' }}>

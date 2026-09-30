@@ -25,13 +25,13 @@ const Home = () => {
     <div>
       {/* Hero Banner (Promotional) */}
       <section style={{ backgroundColor: '#E31837', color: 'white', padding: '60px 0', position: 'relative', overflow: 'hidden' }}>
-        <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', position: 'relative', zIndex: 2 }}>
+        <div className="container flex-mobile-col" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', position: 'relative', zIndex: 2 }}>
           <div style={{ flex: 1, paddingRight: '40px' }}>
             <div style={{ backgroundColor: 'white', color: '#183C7E', display: 'inline-block', padding: '4px 12px', borderRadius: '4px', fontWeight: 'bold', marginBottom: '16px', fontSize: '1.2rem' }}>ORIENT</div>
-            <h1 style={{ fontSize: '4.5rem', lineHeight: 1, marginBottom: '20px', letterSpacing: '-0.02em', textShadow: '2px 2px 4px rgba(0,0,0,0.2)' }}>
+            <h1 className="hero-title-responsive" style={{ lineHeight: 1, marginBottom: '20px', letterSpacing: '-0.02em', textShadow: '2px 2px 4px rgba(0,0,0,0.2)' }}>
               T3 INVERTER <br/> AC
             </h1>
-            <div style={{ display: 'inline-block', backgroundColor: '#183C7E', color: 'white', fontSize: '3.5rem', fontWeight: 'bold', padding: '10px 30px', borderRadius: '8px', boxShadow: '0 10px 20px rgba(0,0,0,0.2)', border: '2px solid white' }}>
+            <div className="hero-price-responsive" style={{ display: 'inline-block', backgroundColor: '#183C7E', color: 'white', fontWeight: 'bold', padding: '10px 30px', borderRadius: '8px', boxShadow: '0 10px 20px rgba(0,0,0,0.2)', border: '2px solid white' }}>
               124,900 <span style={{ fontSize: '1.5rem' }}>PKR</span>
             </div>
             <br/><br/>
@@ -49,7 +49,7 @@ const Home = () => {
           <h2 style={{ fontSize: '2rem', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '20px' }}>
             <span style={{ fontWeight: '800' }}>EXCLUSIVELY</span> 
             <span style={{ fontWeight: '400' }}>Available at</span>
-            <span style={{ color: 'var(--color-primary)', fontWeight: '800', fontSize: '2.5rem' }}>
+            <span className="banner-text-responsive" style={{ color: 'var(--color-primary)', fontWeight: '800' }}>
               DE <span style={{ color: 'var(--color-accent)' }}>DAR</span> ELECTRONICS
             </span>
           </h2>
